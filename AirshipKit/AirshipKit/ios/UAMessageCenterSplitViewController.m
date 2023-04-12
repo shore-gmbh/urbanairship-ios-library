@@ -22,6 +22,8 @@
 
 @implementation UAMessageCenterSplitViewController
 
+@synthesize style = _style;
+
 - (void)configure {
 
     self.listViewController = [[UAMessageCenterListViewController alloc] initWithNibName:@"UAMessageCenterListViewController"
